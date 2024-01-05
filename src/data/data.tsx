@@ -129,12 +129,12 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Chinese',
+        level: 5,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Japanese',
+        level: 7,
       },
     ],
   },
@@ -150,8 +150,8 @@ export const skills: SkillGroup[] = [
         level: 7,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Next',
+        level: 8,
       },
     ],
   },
@@ -167,8 +167,8 @@ export const skills: SkillGroup[] = [
         level: 5,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Mongo',
+        level: 9,
       },
     ],
   },
@@ -313,17 +313,17 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
+      name: 'Joaq Peralta',
       text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
+      name: 'Roman Khamdrak',
       text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
+      name: 'Tim Barker',
       text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
@@ -340,23 +340,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'kevin.bigdream@gmail.com',
+      href: 'kevin.bigdream@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
+      text: 'Kyiv, Ukraine',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@kevinedwards',
+      href: 'https://www.instagram.com/kevinedwards/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'Kevin Edwards',
+      href: 'https://github.com/passion0619',
     },
   ],
 };
@@ -365,9 +365,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/passion0619'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/passion0619'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/kevinedwards/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/passion/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/kevinedwards'},
 ];
