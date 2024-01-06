@@ -13,20 +13,14 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage1 from '../images/portfolio/portfolio-1.png';
+import porfolioImage2 from '../images/portfolio/portfolio-2.png';
+import porfolioImage3 from '../images/portfolio/portfolio-3.png';
+import porfolioImage4 from '../images/portfolio/portfolio-4.png';
+import porfolioImage5 from '../images/portfolio/portfolio-5.png';
+import porfolioImage6 from '../images/portfolio/portfolio-6.png';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/testimonial.jpg';
 import {
   About,
   ContactSection,
@@ -68,19 +62,15 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  * Hero section
  */
 export const heroData: Hero = {
-  imageSrc: heroImage,
+  imageSrc: profilepic,
   name: `Kevin Edwards`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+      <p className="text-2xl text-stone-200">
+          👋 Hello there! 👋 
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+      <p className="prose-md text-stone-200 sm:prose-base lg:prose-lg">
+      I'm Kevin, a passionate <strong className="text-stone-100">Full-stack Developer</strong> with a focus on blockchain and MERN stack technologies.
       </p>
     </>
   ),
@@ -104,15 +94,19 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm Kevin Edwards, a passionate full-stack developer with a focus on blockchain and MERN stack technologies. My journey in the world of coding has been nothing short of thrilling. From diving into the intricacies of blockchain to creating seamless applications using the MERN stack, I've found my true calling in the ever-evolving realm of web development.
+
+  In the exciting universe of blockchain, I bring a wealth of knowledge and expertise, navigating the decentralized landscape with precision. I thrive on the challenges it presents, always seeking innovative solutions to push the boundaries of what's possible.
+  
+  On the MERN stack front, I'm in my element, seamlessly blending MongoDB, Express.js, React, and Node.js to craft robust and dynamic applications. It's not just about writing code for me; it's about creating experiences that resonate with users and make a meaningful impact.
+  
+  Join me on this journey of innovation and exploration as I continue to push the boundaries of what technology can achieve. Let's build something extraordinary together!`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    {label: 'Location', text: 'Kyiv, Ukraine', Icon: MapIcon},
+    {label: 'Age', text: '24', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'English / Chinese', Icon: FlagIcon},
+    {label: 'Interests', text: 'Football, Teakwondo, Guitar', Icon: SparklesIcon},
+    {label: 'Study', text: 'Taras Shevchenko National University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
   ],
 };
@@ -196,70 +190,40 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
+    title: 'Angry Birds',
+    description: 'Wordpress theme by created elementor.',
     url: 'https://reactresume.com',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
+    title: 'Argon Native',
+    description: 'React Native Argon Template.',
     url: 'https://reactresume.com',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
+    title: 'Season October',
+    description: 'Laravel Socail template.',
     url: 'https://reactresume.com',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
+    title: 'Restaurant',
+    description: 'Top famous wordpress theme.',
     url: 'https://reactresume.com',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
+    title: 'React Admin Template.',
+    description: 'React Admin Template, Tailwind, TypeScript.',
     url: 'https://reactresume.com',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
+    title: 'AENFT',
+    description: 'Discover & Collect NFT Artwork.',
     url: 'https://reactresume.com',
     image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
@@ -268,16 +232,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'April 2016',
+    location: 'Taras Shevchenko National University',
+    title: 'Bachelor of computer science',
+    content: <p>Proudly, I hold a Bacheor in Computer Science from Taras Shevchenko National University, an institution known for its rich history and academic excellence.
+
+    My educational journey at Taras Shevchenko National University equipped me with a solid foundation in computer science, providing not just theoretical knowledge but also fostering a hands-on approach to problem-solving. It was within these esteemed walls that my fascination with coding blossomed, leading me to specialize in blockchain and the MERN stack.
+    
+    As a graduate of this renowned university, I carry forward its legacy of academic rigor and innovative thinking. My time here has not only shaped my technical skills but has instilled in me a commitment to pushing boundaries and embracing the dynamic nature of the tech world.
+    
+    Join me on this exciting adventure as I leverage my educational background and real-world experiences to create impactful solutions in the realm of full-stack development. Together, let's embark on a journey where education meets innovation!</p>,
   },
 ];
 
