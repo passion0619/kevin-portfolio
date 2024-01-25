@@ -22,3 +22,5 @@ To build this website, you will need to have the latest stable versions of Node 
 ### 2. Fork and download this repo (and star if you like!)
 
 Next, find the `Fork` button in the top right of this page. This will allow you to make your own copy, for more info on forking repo's see [here.](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) After this, download to your development machine using the green `Code` button at the top of the repo page.
+
+React, Tailwindcss, Redux, Next
