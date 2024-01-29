@@ -25,6 +25,6 @@ Next, find the `Fork` button in the top right of this page. This will allow you 
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react, ts, js, sass, tailwindcss" />
+    <img src="https://skillicons.dev/icons?i=react,ts, js, sass, tailwindcss" />
   </a>
 </p>
