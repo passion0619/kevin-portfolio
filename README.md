@@ -1,6 +1,6 @@
 # Danylo Porfolio
 
-# 🎉 Version 2 is here! New features:
+# 🎉 Version 2 is here!
 1. Completely rebuilt with React and full typescript support
 2. Built on the [Next.js](https://nextjs.org/) framework for easy server side rendering/static generation, image optimization, api routes, and deployment
 3. Styled entirely with [TailwindCss](https://tailwindcss.com/)
