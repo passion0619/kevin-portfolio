@@ -1,4 +1,4 @@
-# Danylo Porfolio
+# Danylo 
 
 # 🎉 Version 2 is here! New features:
 1. Completely rebuilt with React and full typescript support
